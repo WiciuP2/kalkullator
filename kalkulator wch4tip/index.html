@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+ 
+<head>
+  
+  <meta charset="utf-8">
+  <title>Przeliczeniomierz</title>
+  <link rel="stylesheet" href="wyglad.css">
+  <link rel="shortcut icon" href="ikonka.jpg">
+
+  <script type="text/javascript" src="js.js"></script>
+
+</head>
+
+<body> 
+
+<div class="glowny">
+ 
+<table class="tabelka" >
+  <tr>
+    <td colspan="3"> <input class="wyswietlacz" type="text" id="result" disabled /> </td>
+ 
+<div class="klikacze">
+
+    
+  </tr>
+
+  <tr>
+     
+    <td> <input type="button" value="1" onclick="wyswietl('1')" /> </td>
+    <td> <input type="button" value="2" onclick="wyswietl('2')" /> </td>
+    <td> <input type="button" value="3" onclick="wyswietl('3')" /> </td>
+    <td> <input type="button" value="/" onclick="wyswietl('/')" /> </td>
+  </tr>
+
+  <tr>
+    <td> <input type="button" value="4" onclick="wyswietl('4')" /> </td>
+    <td> <input type="button" value="5" onclick="wyswietl('5')" /> </td>
+    <td> <input type="button" value="6" onclick="wyswietl('6')" /> </td>
+    <td> <input type="button" value="-" onclick="wyswietl('-')" /> </td>
+  </tr>
+
+  <tr>
+    <td> <input type="button" value="7" onclick="wyswietl('7')" /> </td>
+    <td> <input type="button" value="8" onclick="wyswietl('8')" /> </td>
+    <td> <input type="button" value="9" onclick="wyswietl('9')" /> </td>
+    <td> <input type="button" value="+" onclick="wyswietl('+')" /> </td>
+  </tr>
+
+  <tr>
+    <td> <input type="button" value="." onclick="wyswietl('.')" /> </td>
+    <td> <input type="button" value="0" onclick="wyswietl('0')" /> </td>
+ 
+    <td> <input type="button" value="=" onclick="oblicz()" id="sum" /> </td>
+    <td> <input type="button" value="*" onclick="wyswietl('*')" /> </td>
+    <td> <input type="button" value="C" onclick="Czyszczenie()" id="res" /> </td>
+  </tr>
+
+</table>
+
+</div>
+
+</div>
+
+
+
+
+</body>
+ 
+</html>
