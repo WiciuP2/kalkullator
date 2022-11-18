@@ -1,0 +1,91 @@
+
+
+.tabelka {
+    border-radius: 25px;
+    height: 600px;
+    width: 500px;
+    background-color: black;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    display: 20%;
+    margin-top: 80px;
+    margin-left: 520px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    float: left;
+}
+ 
+.wyswietlacz {
+    background-color: white;
+    color: black;
+    height: 200px;
+    font-size: 60px;
+    border-top: 2px solid green;  
+    border-left: 2px solid green;   
+    border-right: 2px solid green;  
+    border-bottom: 2px solid green;
+    inline-size: 600px;
+    margin-right: -800px;
+    margin-top: -30px;
+    width: 440px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    clear: both;
+}
+ 
+#sum {
+    background-color: darkred;
+    cursor: cell;
+}
+#sum:hover{
+    background-color:red;    
+}
+
+#res{
+background-color: darkred;
+cursor: cell;
+}
+
+#res:hover{
+    background-color: red;
+  }
+
+input[type=button] {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border: solid orange 2px;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    cursor: cell;
+}
+
+ 
+input:active[type=button] {
+    -webkit-box-shadow: inset 1px 1px 5px #c2c2c2;
+    -moz-box-shadow: inset 1px 1px 5px #c2c2c2;
+    cursor: cell;
+}
+
+
+ 
+input:hover[type=button]{
+    background-color: lightsalmon;
+}
+.klikacze{
+    background-color: lightgreen;
+    font-size: 40px;
+    cursor: cell;
+ 
+}
+body {
+  background-image: url(tlostrony.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
